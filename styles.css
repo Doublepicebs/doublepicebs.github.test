@@ -1,0 +1,130 @@
+```
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+    body{
+    color: #555;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    }
+    
+    #header{
+    background-color: #2979FF;
+    height: 200px;
+    line-height: 200px;	
+    }
+    
+    #header a{
+    	color: white;
+    	text-decoration: none;
+    	text-transform: uppercase;
+    	letter-spacing: 0.1em;
+    }
+    
+    #header a:hover{
+    	color: #222;
+    }
+    
+    #header-title{
+    	display: block;
+    	float: left;
+    	color: white;
+    	font-size: 20px;
+    	font-weight: bold;
+    }
+    
+    #header-nav{
+    	display: block;
+    	float: right;
+    	margin-top: 0;
+        margin-left: 0;
+    }
+    
+    #header-nav li{
+    	display: inline;
+    	color: white;
+    	padding-left: 20px;
+    }
+    
+    .container{
+    	max-width: 1000px;
+    	margin: 0 auto;
+    }
+    
+    #footer{
+    	background-color: #2979FF;
+    	padding: 50px 0;
+    }
+    
+    .coloumn{
+    	min-width: 300px;
+    	display: inline-block;
+    	vertical-align: top;
+    }
+    
+    #footer h4{
+    	color: white;
+    	text-transform: uppercase;
+    	letter-spacing: 0.1em;
+    }
+    
+    #footer p{
+    	color: white;
+    }
+    
+    a{
+    	text-decoration: none;
+    }
+    
+    a:hover{
+    	color: #E0E0E0;
+    }
+    
+    .white-links{
+    	color: white;
+    }
+    
+    .post, .about{
+    	max-width: 800px;
+    	margin: 0 auto;
+    	padding: 60 0;
+    }
+    
+    .post-author img{
+    	width: 50px;
+    	height: 50px;
+    	vertical-align: middle;
+    }
+    
+    .post-author span{
+    	margin-left: 16px;
+    }
+    
+    .post-date{
+    	color:#D2D2D2;
+    	font size: 14px;
+    	font-weight: bold;
+    	text-transform: uppercase;
+    	letter-spacing: 0.1em;
+    }
+    
+    h1, h2, h3, h4{
+    	color: #333;
+    }
+    
+    p{
+    	line-height: 1.5;
+    }
+    
+    .about{
+    	text-align: center;
+    }
+    
+    .post-author img, .about-author img{
+    	border-radius: 50%;
+    }
+    
+    .post-container:nth-child(even){
+    	background-color: #E0E0E0;
+    }
+
+```
